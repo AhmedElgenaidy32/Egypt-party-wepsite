@@ -1,0 +1,130 @@
+:root {
+  scroll-behavior: auto !important;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  transition: all 0.7s;
+}
+aside {
+  padding: 20px;
+  width: 0;
+  margin-left: -150px;
+}
+a:hover {
+  color: rgba(214, 46, 51, 1);
+}
+#closeBtn {
+  transition: all 0.6s;
+}
+#closeBtn:hover {
+  transform: scaleX(1.1);
+  color: rgba(214, 46, 51, 1);
+}
+aside .container i {
+  cursor: pointer;
+  font-size: 20px;
+}
+#open {
+  position: fixed;
+  top: 60%;
+  color: black !important;
+  font-weight: 600;
+  cursor: pointer;
+  z-index: 999;
+  left: 10px;
+  color: white !important;
+  font-size: 24px;
+}
+header {
+  background-image: linear-gradient(#9c2d2fce, #9c2d2fdb),
+    url(../images/WhatsApp\ Image\ 2024-07-04\ at\ 14.46.15_2245cf37.jpg);
+  height: 100vh;
+  background-position: center center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+header h1 {
+  letter-spacing: 2px;
+}
+#about {
+  background-color: #e68285;
+  padding: 10px 0;
+}
+#about h2 {
+  cursor: pointer;
+}
+#about p {
+  background-color: #ccc;
+}
+#about .hide {
+  display: none;
+}
+
+@keyframes prog {
+  to {
+    width: 100%;
+  }
+}
+
+#duration {
+  background-image: linear-gradient(#dc373ab7, #dc373ab7),
+    url(../images/2.jpg);
+  background-position: center center;
+  background-size: cover;
+}
+#duration p {
+  border: 1px solid white;
+  color: white;
+  margin-inline: 10px;
+  padding: 40px;
+  font-size: 23px;
+  text-align: center;
+}
+
+#contact .social-media i {
+  border: 2px solid black;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: inline-flex;
+
+  justify-content: center;
+  align-items: center;
+  transition: 0.7s;
+}
+#contact .social-media i:hover {
+  color: #09c;
+  background-color: #111;
+  transform: rotateY(180deg);
+}
+
+#contact .icons span {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+#contact .icons span i {
+  font-weight: 600 !important;
+  color: #09c;
+}
+#contact .inputs input {
+  transition: all 0.5s;
+}
+#contact .inputs input:focus {
+  box-shadow: 0 0 0 3px #09c;
+}
+#contact .inputs textarea {
+  transition: all 0.5s;
+}
+#contact .inputs textarea:focus {
+  box-shadow: 0 0 0 3px #09c;
+}
+#warning {
+  display: none;
+}
